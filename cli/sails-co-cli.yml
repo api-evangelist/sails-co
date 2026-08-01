@@ -1,0 +1,24 @@
+generated: '2026-07-21'
+method: searched
+source: https://sailsjs.com/documentation/reference/command-line-interface
+name: sails
+description: The Sails command-line tool, bundled with the `sails` npm package, for scaffolding, running, and debugging Sails apps.
+install:
+  - method: npm
+    command: npm install sails -g
+binary: sails
+commands:
+  - command: sails new
+    description: Create a new Sails project with the initial app structure and files.
+  - command: sails lift
+    description: Start (lift) the Sails application server.
+  - command: sails console
+    description: Launch an interactive Node.js console with the Sails app loaded.
+  - command: sails generate
+    description: Generate scaffolding for models, controllers, actions, and other components.
+  - command: sails debug
+    description: Start the application in debug mode for troubleshooting.
+  - command: sails inspect
+    description: Run the application with Node's inspector for advanced debugging.
+  - command: sails --version
+    description: Display the installed version of Sails.

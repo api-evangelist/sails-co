@@ -1,0 +1,24 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.npmjs.com/package/sails
+packages:
+  - language: javascript
+    registry: npm
+    name: sails
+    url: https://www.npmjs.com/package/sails
+    install: npm install sails --save
+    version: 1.5.18
+    license: MIT
+    repository: https://github.com/balderdashy/sails
+    official: true
+    description: API-driven MVC framework for building realtime Node.js apps (based on Express and Socket.io). Ships the `sails` command-line tool.
+  - language: javascript
+    registry: npm
+    name: waterline
+    url: https://www.npmjs.com/package/waterline
+    install: npm install waterline --save
+    version: 0.15.2
+    license: MIT
+    repository: https://github.com/balderdashy/waterline
+    official: true
+    description: Datastore-agnostic ORM/ODM used by Sails for a uniform data access layer across SQL and NoSQL adapters.

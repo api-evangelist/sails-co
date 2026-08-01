@@ -1,8 +1,28 @@
 aid: sails-co
 name: Sails Co
-description: Sails Co is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Sails Co. is a full-service web, mobile, and cloud development studio (Y
+  Combinator W15, Austin, Texas) founded by the creators of Sails.js. Sails.js is
+  an open-source, API-driven MVC framework for Node.js — built on top of Express
+  and Socket.io — for building production-ready, realtime web applications and
+  data-driven REST APIs. It ships the Waterline ORM for datastore-agnostic data
+  access, auto-generated "blueprint" REST APIs, first-class WebSocket support, and
+  a `sails` command-line tool for scaffolding, running, and debugging apps. Sails
+  is MIT-licensed and maintained by the Sails Co. team, which also offers
+  professional and enterprise support for the framework.
 url: https://raw.githubusercontent.com/api-evangelist/sails-co/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://sailsjs.com/images/logo.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,12 +31,55 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Framework
+- Node.js
+- MVC
+- Web Development
+- Realtime
+- ORM
+- REST API
+- JavaScript
+- Open Source
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: Security
+  url: https://sailsjs.com/security
+- type: VulnerabilityDisclosure
+  url: security/sails-co-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/sails-co-domain-security.yml
+- type: Website
+  url: https://sailsjs.com
+- type: DeveloperPortal
+  url: https://sailsjs.com
+- type: Documentation
+  url: https://sailsjs.com/documentation
+- type: GettingStarted
+  url: https://sailsjs.com/get-started
+- type: Support
+  url: https://sailsjs.com/support
+- type: Blog
+  url: https://sailsjs.com/blog
+- type: GitHubOrganization
+  url: https://github.com/balderdashy
+- type: SourceCode
+  url: https://github.com/balderdashy/sails
+- type: Packages
+  url: packages/sails-co-packages.yml
+- type: CLI
+  url: cli/sails-co-cli.yml
+- type: LLMsTxt
+  url: llms/sails-co-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 6
+  pass: local-v1
