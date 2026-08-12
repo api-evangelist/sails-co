@@ -50,6 +50,9 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: License
+  name: MIT
+  url: https://github.com/balderdashy/sails/blob/master/LICENSE
 - type: Security
   url: https://sailsjs.com/security
 - type: VulnerabilityDisclosure
