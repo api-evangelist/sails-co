@@ -11,6 +11,18 @@ description: >-
   is MIT-licensed and maintained by the Sails Co. team, which also offers
   professional and enterprise support for the framework.
 url: https://raw.githubusercontent.com/api-evangelist/sails-co/refs/heads/main/apis.yml
+deliveryModel:
+  model: self-hosted
+  license: MIT
+  open_source: true
+  commercial: false
+  callable_host: false
+  label: Self-hosted open source · you run it yourself
+  confidence: high
+  source:
+  - license
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
@@ -61,6 +73,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: IssueTracker
+  url: https://github.com/balderdashy/sails/issues
+- type: Releases
+  url: https://github.com/balderdashy/sails/releases
+- type: CodeOfConduct
+  url: https://github.com/balderdashy/sails/blob/master/CODE-OF-CONDUCT.md
+- type: ContributionGuide
+  url: https://github.com/balderdashy/sails/blob/master/CONTRIBUTING.md
 - type: License
   name: MIT
   url: https://github.com/balderdashy/sails/blob/master/LICENSE
